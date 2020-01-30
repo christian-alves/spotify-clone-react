@@ -1,0 +1,25 @@
+.cardcontainer{
+    height:270px;
+    width:200px;
+    background-color:#282828;
+    border-radius:10px;
+    margin-right:15px;
+}
+
+.cardcontent{
+    padding:20px;
+    line-height:5px;
+}
+.cardcontent h4{
+    color:white;
+    padding-top:10px;
+}
+.cardcontent p{
+    font-size:13px;
+    color: #A4A4A4;
+}
+
+.cardcontent img{
+    height:150px;
+    width:100%;
+}

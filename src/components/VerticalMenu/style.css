@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html, body{
+    margin:0;
+    padding:0;
+    height:0;
+    font-family:Roboto;
+    background-color:#121212;
+}
+
+.verticalcontainer{
+    width:16%;
+    background-color:black;
+    height:85%!important;
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    color:#cccccc;
+    padding:1rem 0;
+    align-self:center;
+}
+
+.verticalcontainer a{
+    color:#cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    padding-left:1em;
+    line-height:40px;
+    font-size:0.75em;
+    border-left:4px solid transparent;
+    display:flex;
+    align-items:center;
+    font-weight:700;
+}
+
+.verticalcontainer svg{
+    font-size:20px;
+    margin-right:10px;
+}
+
+.verticalcontainer a:hover{
+    color:white;
+    border-left:4px solid #1ED760;
+}
+
+.playlistsdiv h6{
+    padding-left:19px;
+    margin-top:20px;
+    margin-bottom:10px;
+    font-weight:200;
+}
+
+.playlistsbox{
+    margin-top:10px;
+    height:165px;
+    width:99%;
+    overflow-y:scroll;
+}
+.playlistsbox ul{
+    list-style: none;
+    padding-left:19px;
+    margin-top:0;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 17px;
+    }
+    
+::-webkit-scrollbar-thumb {
+    background: #505050;  
+    }
+::-webkit-scrollbar-thumb:hover {
+    background:#505050;  
+    }
+
+.playlistsbox  li a{
+        margin:0!important;
+        padding:0!important;
+        border:none!important;
+        font-weight:normal;
+        line-height:30px;
+}
+
+.playlistsdiv a:hover{
+    border-left:4px solid transparent
+}
+
+.plus svg{
+    color:black;
+    background-color:#9A9A9A;
+    padding:6px;
+}

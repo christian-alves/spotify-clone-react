@@ -1,0 +1,11 @@
+.collectioncardcontainer{
+    width:145px;
+    height:145px;
+    display:flex;
+    margin-right:20px;
+}
+
+.collectioncardcontainer img{
+    width:100%;
+    height:100%;
+}

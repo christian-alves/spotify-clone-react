@@ -1,0 +1,27 @@
+.pagecontainer{
+position:absolute;
+left:16%;
+padding: 30px 25px;
+}
+
+.tabsbar a{
+    padding-right:30px;
+    font-size:13px;
+    font-weight:700;
+    text-decoration:none;
+    color:#999999;
+    transition:color 0.3s ease-in-out;
+}
+
+.tabsbar a:hover{
+    color:white;
+}
+
+h1{color:white;
+margin-top:60px;
+line-height:10px;}
+
+p{
+    color:#A4A4A4;
+    font-size:15px;
+}

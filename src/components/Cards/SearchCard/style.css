@@ -1,0 +1,34 @@
+.searchcardcontainer{
+    display:flex;
+    height:180px;
+    width:170px;
+    background-color:orange;
+    border-radius:10px;
+    margin-right:20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#searchinpdiv{
+    border-radius:200px;
+    height:40px;
+    border:none;
+    outline:0;
+    width:60%;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    padding:0 10px;
+}
+#searchinp{
+    width:100%;
+    height:80%;
+    border:none;
+    line-height:40px;
+    font-size:0.8em;
+    outline:0;
+    padding-left:10px;
+}
+body{
+    overflow-x:hidden;
+}

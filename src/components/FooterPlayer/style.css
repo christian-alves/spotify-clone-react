@@ -1,0 +1,28 @@
+.footerplayercontainer{
+    position:absolute;
+    height:15%;
+    bottom:0;
+    background-color:#282828;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.row{
+    display:inline-flex;
+    align-items:center;
+}
+.footerplayercontainer .row button{
+    background-color:transparent;
+    color: #B3B3B3;
+    border:0;
+    font-size:13px;
+    padding-right:15px;
+    padding-left:15px;
+    outline:0;
+
+}
+.footerplayercontainer .row .play{
+    font-size:20px;
+}
