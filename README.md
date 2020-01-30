@@ -1,5 +1,7 @@
 The project idea is to make this works exactly or almost the same like Spotify for study purpose.
 
+Demo: https://spotify-clone-react.herokuapp.com/
+
 To do:
 - Make it responsive
 - Make login backend
